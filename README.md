@@ -1,4 +1,4 @@
-# JavaScript Iteration
+# unit i katas
 
 ## Objectives
 
