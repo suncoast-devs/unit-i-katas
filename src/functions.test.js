@@ -14,11 +14,12 @@
    Complete all 5 to be done with this assignment. 
 */
 
-/*
- * 1) Define a function sum() that takes two numbers as
- * arguments and computes the sum of those two numbers.
+/**
+ * 1) Write a function findLongestWord() that takes an
+ * string returns the first, longest word in the array.
+ *
+ * i.e. findLongestWord("book dogs") should return "book"
  */
-
 // ...
 
 /*
@@ -66,11 +67,11 @@ const ensureDefined = (t, method) => {
     )
   }
 }
-test('sum()', t => {
-  ensureDefined(t, 'sum')
+test('findLongestWord()', t => {
+  ensureDefined(t, 'findLongestWord')
 
-  t.is(sum(8, 11), 19)
-  t.is(sum(4, 100), 104)
+  t.is(findLongestWord('book dogs'), 'book')
+  t.is(findLongestWord('life the universe and everything'), 'everything')
 })
 
 test('sumOfArray()', t => {
