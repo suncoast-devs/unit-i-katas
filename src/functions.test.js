@@ -1,147 +1,56 @@
 /*
 
-   Welcome to JS Interation
-
-   Down below you will find instructions for code to write.
-
+   Welcome to final kata challenges. This are a few hand selected problems to test your knowledge of JavaScript. 
+  
    As you write and save your code, you can look in your terminal where you
-   ran `yarn test` to see if your code is working. The tests continuously check
+   ran `yarn start` to see if your code is working. The tests continuously check
    your work each time you save. If a test is failing either you have not yet
    defined that function or you have not defined it correctly.
 
-   Once you finish a function and have it correct, the test will tell you if/how
+
+      Once you finish a function and have it correct, the test will tell you if/how
    the next function is working.
 
+   Complete all 5 to be done with this assignment. 
 */
 
-/**
- * Define a function named `yelling` that takes an array of
- * strings as an argument and returns a new array with all
- * the words forced to uppercase
- *
- * Example:
- *
- * const yelling = (array) => {
- *    // your code here
- * }
+/*
+ * 1) Define a function sum() that takes two numbers as
+ * arguments and computes the sum of those two numbers.
  */
 
 // ...
+
+/*
+ * 2) Define a function sumOfArray that calculates the sum of
+ * all the numbers in an array.
+ */
 
 /**
  *
- * Define a function named `doubleTrouble` that takes an array of
- * numbers as an argument and returns a new array with all
- * the numbers multiplied by 2
+ * 3) Define a function called check that takes 2 arguments, an array and a value. 
+ *    Check whether the provided array contains the value. Array can contain numbers or strings.
+      Your function should return true if the array contains the value, false if not.
  */
 
-// ...
+/**
+ * 4) defined a function called maps. This takes 1 argument, an array or numbers. 
+ * Your function should return a new array with each value doubled.
+    For example:
 
-/*
- * Define a function stringyIndexes() that takes an array of
- * strings as an argument and returns a new array with each string
- * suffixed with " is at index X" where X is the index of the element
+    [1, 2, 3] --> [2, 4, 6]
+
+   Try to use the map method - it comes in very handy quite a lot so is a good one to know.
+ *    
  */
 
-// ...
+/**
+ * 5) Write a function called noSpace. This function takes one argument, a string. 
+ *    This function should return the string with no spaces. 
+ *    For example: 
+ *    noSpace("This is a my cool thing") should return "Thisisamycoolthing"
 
-/*
- * Define a function onlyTheEvenSurvive that accepts an array of
- * numbers and returns only the elements that are even
- */
-
-// ...
-
-/*
- * Define a function onlyTheEvenIndexedSurvive that accepts an array of
- * numbers and returns only the elements at indexes that are even
- */
-
-// ...
-
-/*
- * Define a function bestMoviesOfTheYear that accepts an array of
- * movie objects AND a year and returns the names of movies that are
- * from that year AND have a score more than 90
- *
- * A movie object looks like this:
- *
- * {
- *   name: "Get Out",
- *   year: "2017",
- *   score: 99
- * }
- */
-
-// ...
-
-/*
- * Define a function everyoneIsOdd that accepts an array of
- * numbers and returns true if every element of the array is
- * odd.
- */
-
-// ...
-
-/*
- * Define a function findTheNeedle that accepts an array of
- * strings and returns the one string that contains the word
- * `needle` inside
- */
-
-// ...
-
-/*
- * Define a function findTheNeedleIndex that accepts an array of
- * strings and returns the index of the string that contains
- *  the word `needle` inside
- */
-
-// ...
-
-/*
- * Define a function someoneToLove that accepts an array of
- * strings and returns true if at least one string is exactly
- * four characters long
- */
-
-// ...
-
-/*
- * Define a function mapYourself that accepts an array of
- * numbers and returns a new array where each number is doubled.
- *
- * However, you cannot use any of the Array enumerables.
- *
- * So no using forEach, map, filter, reduce, etc.
- */
-
-// ...
-
-/*
- * Define a function filterYourself that accepts an
- * array of numbers and returns a new array containing
- * only the even numbers.
- *
- * However, you cannot use any of the Array enumerables.
- *
- * So no using forEach, map, filter, reduce, etc.
- */
-
-// ...
-
-/*
- * Define a function everyYourself that accepts an
- * array of numbers and returns true if every number
- * in the array is even.
- *
- * However, you cannot use any of the Array enumerables.
- *
- * So no using forEach, map, filter, reduce, etc.
- */
-
-// ...
-
+ 
 /**
  * NOTE: Don't modify anything below this line...
  */
