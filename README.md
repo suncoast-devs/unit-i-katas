@@ -10,7 +10,7 @@ After completing this assignment, you should be able to:
 
 1. Fork [this repository](https://github.com/suncoast-devs/unit-i-katas) to your own account.
 2. Change into your projects directory:
-3. Clone your repository: `git clone unit-i-katas`
+3. Clone your repository: `git clone the-github-url-of-your-fork`
 4. Change into your project's directory: `cd unit-i-katas`
 5. Install the dependencies: `yarn install` (or just `yarn` for short)
 6. Open in your editor]
